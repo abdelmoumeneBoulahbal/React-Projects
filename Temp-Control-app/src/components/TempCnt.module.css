@@ -1,0 +1,101 @@
+.cold_temp, .hot_temp, .medium_temp, .orange_temp{
+    max-width: 70px;
+    margin: auto;
+
+    margin-bottom: 10px;
+    margin-top: 50px;
+
+    border-radius: 50%;
+    padding: 50px;
+
+    text-align: center;
+
+    border: 2px solid white;
+
+}
+
+.cold_temp{
+    background-color: rgb(18, 203, 231);  
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+.medium_temp{
+    background-color: rgba(255, 234, 0, 0.944);
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+.orange_temp{
+    background-color: rgb(251, 168, 0);
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+.hot_temp{
+    background-color: rgba(255, 42, 0, 0.867);
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+.div_temp{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(41, 112, 163, 0.992);
+
+    
+    padding: 10px;
+    max-width: 200px;
+  
+    margin: auto;
+    margin-top: 100px;
+    
+    border-radius: 20px;
+    border: 2px solid white;
+
+    transition: background-color 1s ease;
+
+    height: 300px;
+
+    box-shadow: 0px 10px 20px black;
+}
+
+p{  
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;  
+}
+
+
+
+button{
+    color: rgba(113, 109, 109, 0.753);
+
+    background-color: rgba(255, 255, 255, 0.657);
+
+    border: 2px solid rgb(255, 255, 255);
+
+    margin: 20px;
+    border-radius: 80px;
+
+    width: 60px;
+    height: 60px;
+
+    font-size: 2rem;
+
+    transition: background-color 0.8s ease;
+  
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(15, 125, 251);
+    border: 2px solid rgba(0, 0, 0, 0.341);
+}
+
+button:active{
+    box-shadow: 0 2px 10px #000000;
+    transform: translateY(4px);
+}
