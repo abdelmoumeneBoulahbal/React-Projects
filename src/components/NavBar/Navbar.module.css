@@ -1,4 +1,4 @@
-.navBar{
+/*.navBar{
     display: flex;
     background: linear-gradient(-50deg, rgba(199, 137, 240, 0.561), rgba(140, 115, 240, 0.742), rgb(113, 162, 240));
     color: white;
@@ -89,7 +89,7 @@ i{
 span{
     display: none;
 }
-/*@media screen and (max-width: 806.40px){
+@media screen and (max-width: 806.40px){
     body{
         padding: 0px;
         margin: 0px;
